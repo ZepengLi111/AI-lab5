@@ -73,3 +73,4 @@ def train(model, epoch, optimizer, loss_func, train_dataloader, val_dataloader, 
     print("best epoch: ", best_epoch)
     print("best loss: ", best_loss)
     print("best acc: ", best_acc)
+    return best_acc
